@@ -15,19 +15,27 @@ public class Main {
                         }
                         System.out.print("среднее арифметическое чисел равно: " + sum / num.length);
                     }
+                    {
+                        {
+                            int a = 2000;
+                            int n = 0;
+                            while (a >= 50) {
+                                System.out.println(a);
+                                a /= 2;
+                                n++;
+                            }
+                            if (a < 50) {
+                                System.out.print("Количество итераций: " + n + ", получилось число " + a);
+                            } else {
+                                System.out.println("Вы ввели слишком маленькое число");
+                            }
+
+                        }
+                    }
 
                 }
-            }
 
-        }
-        {
-            For(int k = 2000; n = 0);
-            System.out.println(k);
-            while (k >= 50) {
-                k = k / 2;
-                n++;
             }
-            System.out.print("Количество итераций: " + n + ", получилось число " + k);
         }
     }
 }
